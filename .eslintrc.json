@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": ["next/core-web-vitals", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "no-console": "error",
+        "no-unused-vars": [
+            "error",
+            { "varsIgnorePattern": "^_", "args": "none" }
+        ],
+        "import/no-unused-modules": "error"
+    }
 }
