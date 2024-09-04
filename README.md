@@ -21,7 +21,7 @@ Husky está configurado para garantir que os hooks de git sejam executados corre
 Para começar, clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/usuario/nextjs-template.git
+git clone https://github.com/pedrohmelo/nextjs-template.git
 cd nextjs-template
 npm install
 ```
